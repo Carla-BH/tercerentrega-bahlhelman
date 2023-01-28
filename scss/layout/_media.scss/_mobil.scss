@@ -1,0 +1,63 @@
+/*------------------------responsive mobil 360---------------------*/
+/*header*/
+@media (max-width: 360px) {
+    header{
+    height: 160px;
+    }
+    .logo-p {
+    height: 70px;
+    }
+    .nav-palabras{
+        font-size: 22px;
+    }
+    }
+/*main*/
+@media (max-width: 360px) {
+
+    main{
+    font-size: 12px;
+    }
+    .caja-portada{
+        flex-direction: column;
+        height: auto;
+    }
+    .caja-texto{
+        text-align: center;
+        font-size: 18px;
+    }
+    .foto-inicio{
+        display: block;
+        margin: auto;
+    }
+    .titulomobil{
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: underline;
+        font-size: 20px;
+    }
+    .titulo-principal{
+        display: none;
+    }
+}
+/*tienda*/
+@media (max-width: 360px) {
+    .titulo-tienda{
+        font-size: 21px;
+    }
+    .p-tienda{
+        font-size: 15px;
+    }
+    .titulo-principal{
+        display: none;
+    }
+/*mision*/
+    .mision-texto{
+        text-align: center;
+    padding: 20px;
+    margin: 20px;
+    }
+}
+

@@ -1,0 +1,33 @@
+@media (max-width: 768px) {
+    header{
+        height: 120px;
+        }
+        .nav-palabras{
+            font-size: 15px;
+        }
+        .titulo-principal{
+            font-size: 25px;
+        }
+        .foto-inicio{
+            display: flex;
+            border-radius: 100px;
+            height: 200px;
+            width: 200px;
+            margin: 20px;
+        }
+/*Galeria*/
+.container-galeria{
+    height: 2500px;  
+}
+.titulo-galeria{
+padding: 25px;
+}
+.caja-textoi{
+    width: 100%;
+    text-align: center;
+}
+.caja-textod{
+    width: 100%;
+    text-align: center;
+}
+}

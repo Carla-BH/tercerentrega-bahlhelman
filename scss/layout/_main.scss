@@ -1,0 +1,61 @@
+.caja-portada{
+    background-image: linear-gradient(to bottom, #b70131, #c55841, #d18a63, #dbb693, #e9dfcf);    display: inline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;  
+    color: rgb(252, 250, 250);
+    padding: 10px;
+    height: 400px;
+}
+
+.titulo-principal{
+    padding: 10px;
+    font-size: 50px;
+}
+
+.titulo-inicio{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto-inicio{
+    display: flex;
+    border-radius: 150px;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+}
+
+.caja-texto{
+    padding: 10px;
+}
+
+.section-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-image: linear-gradient(to top, #b70131, #c55841, #d18a63, #dbb693, #e9dfcf);
+}
+
+.p-main{
+    background-color: rgba(53, 114, 53, 0.323);
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 5px;
+    color: antiquewhite;
+}
+
+.foto-main{
+    display: flex;
+    border-radius: 75px;
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+}
+
+.titulomobil{
+    display: none;
+}
